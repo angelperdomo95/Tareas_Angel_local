@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tasks_angel_local/static/css/main.f2ea04af.css",
+    "main.js": "/tasks_angel_local/static/js/main.55e3a417.js",
+    "static/media/delete.svg": "/tasks_angel_local/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "index.html": "/tasks_angel_local/index.html",
+    "static/media/check.svg": "/tasks_angel_local/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.f2ea04af.css.map": "/tasks_angel_local/static/css/main.f2ea04af.css.map",
+    "main.55e3a417.js.map": "/tasks_angel_local/static/js/main.55e3a417.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2ea04af.css",
+    "static/js/main.55e3a417.js"
+  ]
+}
