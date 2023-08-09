@@ -9,7 +9,8 @@ import { TodoContext } from '../TodoContext';
     } = React.useContext(TodoContext);
 
     return(
-    <h1 className="TodoCounter">Ha completado <span>{completedTodos}</span> de <span>{totalTodos}</span> TODOS</h1>
+    <h1 className="TodoCounter">Has completado <span>{completedTodos}</span> de <span>{totalTodos}</span> tareas tuyas</h1>
+    
     );
   }
   
