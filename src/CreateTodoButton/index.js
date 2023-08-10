@@ -1,4 +1,5 @@
 import './CreateTodoButton.css';
+import { RiHeartAddFill } from "react-icons/ri";
 
 function CreateTodoButton({ setOpenModal }) {
   return (
@@ -9,7 +10,7 @@ function CreateTodoButton({ setOpenModal }) {
           setOpenModal(state => !state);
         }
       }
-    >+</button>
+    > <RiHeartAddFill/> </button>
   );
 }
 
