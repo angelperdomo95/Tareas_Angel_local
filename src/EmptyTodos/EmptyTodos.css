@@ -1,0 +1,9 @@
+.writes {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 40vh;
+    font-size: 48px; 
+    font-weight: bold; 
+    color: #000000; 
+}
