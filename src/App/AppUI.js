@@ -20,12 +20,22 @@ function AppUI() {
     deleteTodo,
     openModal,
     setOpenModal,
+    completedTodos,
+    totalTodos,
+    searchValue,
+    setSearchValue,
   } = React.useContext(TodoContext);
   
   return (
     <>
-      <TodoCounter />
-      <TodoSearch />
+      <TodoCounter 
+      totalTodos={totalTodos}
+      completedTodos={completedTodos}
+      />
+      <TodoSearch 
+      searchValue={searchValue}
+      setSearchValue={setSearchValue}
+      />
 
       <TodoList>
         {loading && (
