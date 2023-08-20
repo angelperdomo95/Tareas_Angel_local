@@ -5,12 +5,9 @@ function TodosLoading() {
   return(
     <div 
     className="loadingTodo-container">
-    <span
-    className='loadingTodo.completeIcon'>
-    </span>
-    <p className='LoadingTodo-text'></p>
-    <span
-    className='LoadingTodo-deleteIcon'></span>
+    <span className='loadingTodo.completeIcon'></span>
+    <p className='LoadingTodo-text'>Cargando Todos...</p>
+    <span className='LoadingTodo-deleteIcon'></span>
     </div>
   );
 }
