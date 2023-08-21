@@ -1,8 +1,8 @@
 import React from 'react';
 import './TodoSearch.css';
 
-function TodoSearch({ searchValue, setSearchValue}) {
-  const onsearchValueCHange = (event) => {
+function TodoSearch({ searchValue, setSearchValue, loading}) {
+  const onSearchValueChange = (event) => {
     console.log(event.target.value);
     setSearchValue(event.target.value);
   };
@@ -10,12 +10,12 @@ function TodoSearch({ searchValue, setSearchValue}) {
 
   return(
   <input
-  placeholder="Escribe aca tu tarea pendiente"
   className="TodoSearch"
+  placeholder="Escribe aca tu tarea pendiente"
   value={searchValue}
-  onChange={(event)=>{
-  setSearchValue(event.target.value);
-}}
+  onChange={onSearchValueChange}
+  disabled={loading}
+
 />
 );
 }

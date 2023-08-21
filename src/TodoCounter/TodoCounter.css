@@ -9,6 +9,10 @@
     color: darkred;
   }
 
+  .TodoCounter--loading {
+    opacity: 25%;
+  }
+
  
 
   

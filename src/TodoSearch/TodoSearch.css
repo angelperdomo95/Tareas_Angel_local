@@ -21,3 +21,8 @@ box-shadow:0 5px 50px rgba(32,35,41,.25)
 .TodoSearch:focus{
     outline-color:#61dafa
 }
+
+.TodoSearch:disable {
+    opacity: 25%;
+    
+}
